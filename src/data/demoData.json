@@ -1,0 +1,19 @@
+{
+  "startingLocation": "ujjain",
+  "startingLocationName": "Ujjain",
+  "startingGold": 500,
+  "startingKnowledge": 10,
+  "unlockedLocations": ["ujjain", "bharuch"],
+  "demoObjectives": [
+    { "id": "explore_ujjain", "text": "Explore Ujjain Crossroads Market", "done": false },
+    { "id": "talk_narrator", "text": "Talk to Elder Merchant Narrator", "done": false },
+    { "id": "answer_question", "text": "Answer Historical Question", "done": false },
+    { "id": "visit_merchant", "text": "Interact with Merchant Stall", "done": false },
+    { "id": "buy_textiles", "text": "Purchase Textiles at Ujjain Bazaar", "done": false },
+    { "id": "open_map", "text": "Open Strategic India Trade Map (M)", "done": false },
+    { "id": "travel_bharuch", "text": "Caravan Travel Ujjain → Bharuch Port", "done": false },
+    { "id": "handle_event", "text": "Resolve Historical Travel Event", "done": false },
+    { "id": "sell_textiles", "text": "Sell Textiles at Bharuch Port Market", "done": false },
+    { "id": "view_summary", "text": "Review SIH Demo Trade Performance", "done": false }
+  ]
+}

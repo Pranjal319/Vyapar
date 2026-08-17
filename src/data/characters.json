@@ -1,0 +1,20 @@
+[
+  {
+    "id": "merchant_male",
+    "name": "Young Merchant",
+    "genderSymbol": "♂",
+    "tagline": "A spirited trader on a journey of opportunity.",
+    "description": "Bold and ambitious traveler seeking trade fortunes across the crossroads of ancient India.",
+    "portrait": "/assets/characters/merchant_male.jpg",
+    "sprite": "merchant_male"
+  },
+  {
+    "id": "merchant_female",
+    "name": "Young Merchant",
+    "genderSymbol": "♀",
+    "tagline": "A determined trader carving her own path.",
+    "description": "Astute and resourceful trader establishing prestige and prosperity across historic trade highways.",
+    "portrait": "/assets/characters/merchant_female.jpg",
+    "sprite": "merchant_female"
+  }
+]

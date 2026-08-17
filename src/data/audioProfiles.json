@@ -1,0 +1,44 @@
+{
+  "pataliputra": {
+    "name": "Gangetic Imperial Capital",
+    "ambient": "city_river",
+    "freqBase": 220,
+    "description": "Imperial city ambience with distant Gangetic river currents"
+  },
+  "ujjain": {
+    "name": "Avanti Inland Bazaar",
+    "ambient": "crossroads_bazaar",
+    "freqBase": 293.66,
+    "description": "Busy bazaar marketplace ambience with textile traders"
+  },
+  "bharuch": {
+    "name": "Western Maritime Harbor",
+    "ambient": "harbor_docks",
+    "freqBase": 329.63,
+    "description": "Western sea harbor ambience with wooden dock waves"
+  },
+  "madurai": {
+    "name": "Pandyan Guild Centre",
+    "ambient": "southern_guild",
+    "freqBase": 261.63,
+    "description": "Southern temple bazaar with Sangam weaving looms"
+  },
+  "muziris": {
+    "name": "Malabar Spice Port",
+    "ambient": "ocean_waves",
+    "freqBase": 349.23,
+    "description": "Malabar coast ocean waves and spice ship dock ambience"
+  },
+  "map": {
+    "name": "Strategic India Map",
+    "ambient": "quiet_wind",
+    "freqBase": 196.00,
+    "description": "Quiet parchment map wind sweeps and travel planning theme"
+  },
+  "travel": {
+    "name": "Caravan Journey",
+    "ambient": "caravan_trail",
+    "freqBase": 174.61,
+    "description": "Caravan trail wind and rhythmic movement ambience"
+  }
+}

@@ -1,0 +1,234 @@
+{
+  "elder_merchant": [
+    {
+      "id": "em_1",
+      "speaker": "SARTHAVAHA DEV",
+      "role": "AVANTI GUILD ELDER",
+      "text": "Greetings, {{playerName}}. Ujjayini is the great crossroads where the northern Uttarapatha meets the Dakshinapatha."
+    },
+    {
+      "id": "em_2",
+      "speaker": "SARTHAVAHA DEV",
+      "role": "AVANTI GUILD ELDER",
+      "text": "Before you lead your caravan toward Bharukaccha, let us review your knowledge of ancient routes and trade."
+    }
+  ],
+  "narrator_ujjain": [
+    {
+      "id": "uj_1",
+      "speaker": "SARTHAVAHA DEV",
+      "role": "AVANTI GUILD ELDER",
+      "text": "Greetings, {{playerName}}. Ujjayini is the great crossroads where the northern Uttarapatha meets the Dakshinapatha."
+    },
+    {
+      "id": "uj_2",
+      "speaker": "SARTHAVAHA DEV",
+      "role": "AVANTI GUILD ELDER",
+      "text": "Before you lead your caravan toward Bharukaccha, let us review your knowledge of ancient routes and trade."
+    }
+  ],
+  "npc_textile": [
+    {
+      "id": "txt_1",
+      "speaker": "VASANTI",
+      "role": "MASTER WEAVER",
+      "text": "Salutations, {{playerName}}. Our loom-workers dye this fine cotton with local indigo. Southern and coastal markets pay handsomely for our cloth."
+    }
+  ],
+  "npc_spice": [
+    {
+      "id": "spc_1",
+      "speaker": "CHANDRAN",
+      "role": "SPICE TRADER",
+      "text": "Cardamom and dried hill cloves, {{playerName}}. Caravans bringing spices up from the southern hills find eager buyers in every northern town."
+    }
+  ],
+  "npc_grain": [
+    {
+      "id": "grn_1",
+      "speaker": "HARIDAS",
+      "role": "GRAIN TRADER",
+      "text": "Well-milled grain and pulse provisions, {{playerName}}. An experienced trader never crosses dry plateau passes without ample food stores."
+    }
+  ],
+  "npc_artisan": [
+    {
+      "id": "art_1",
+      "speaker": "MOHAN",
+      "role": "POTTER & CRAFTSMAN",
+      "text": "Sturdy terracotta transport jars, {{playerName}}, fired to protect your oils and grain from road dust."
+    }
+  ],
+  "npc_guard": [
+    {
+      "id": "grd_1",
+      "speaker": "VEER",
+      "role": "HIGHWAY GUARD",
+      "text": "The Narmada route west to Bharukaccha is clear, {{playerName}}. Fasten your cargo ropes tight against sudden scrub winds."
+    }
+  ],
+  "npc_townsperson": [
+    {
+      "id": "twn_1",
+      "speaker": "PRIYA",
+      "role": "AVANTI CITIZEN",
+      "text": "Rest beside our banyan tree, {{playerName}}. Caravans from Magadha, Gandhara, and the Deccan have gathered at this square for generations."
+    }
+  ],
+  "narrator_bharuch": [
+    {
+      "id": "nb_1",
+      "speaker": "MEERA",
+      "role": "PORT GUILD LEADER",
+      "text": "Welcome to Bharukaccha, {{playerName}}. Here the Narmada River meets the western sea, and overseas merchants dock with seasonal winds."
+    },
+    {
+      "id": "nb_2",
+      "speaker": "MEERA",
+      "role": "PORT GUILD LEADER",
+      "text": "Let us see if you understand the coastal tides and sea lanes that connect our shores across the waters."
+    }
+  ],
+  "npc_bharuch_meera": [
+    {
+      "id": "bm_1",
+      "speaker": "MEERA",
+      "role": "PORT GUILD LEADER",
+      "text": "Welcome to Bharukaccha, {{playerName}}. Dhows arriving from the Arabian Sea bring copper and silver coins to trade for our beads and inland cloth."
+    },
+    {
+      "id": "bm_2",
+      "speaker": "MEERA",
+      "role": "PORT GUILD LEADER",
+      "text": "Coastal routes lead southward to Muciri. Inland textiles and fine grains fetch high value among coastal seafarers."
+    }
+  ],
+  "npc_bharuch_sailor": [
+    {
+      "id": "bs_1",
+      "speaker": "VIKRAM",
+      "role": "HARBOR PILOT",
+      "text": "Fair winds, {{playerName}}! The seasonal monsoon winds guide our sailing craft southward toward the Malabar Coast. Keep your cargo dry!"
+    }
+  ],
+  "npc_bharuch_salt": [
+    {
+      "id": "bsalt_1",
+      "speaker": "NAYAN",
+      "role": "SALT HARVESTER",
+      "text": "Pure white sea salt harvested from the tidal flats, {{playerName}}. Inland kingdoms value salt above almost all common trade."
+    }
+  ],
+  "narrator_muziris": [
+    {
+      "id": "nmuz_1",
+      "speaker": "KALYAN",
+      "role": "MALABAR SPICE ELDER",
+      "text": "Welcome to Muciri, {{playerName}}. You stand at the great spice emporium of the Malabar Coast."
+    },
+    {
+      "id": "nmuz_2",
+      "speaker": "KALYAN",
+      "role": "MALABAR SPICE ELDER",
+      "text": "Foreign and inland merchants travel far across ocean and mountain for our Black Pepper. Let us test your knowledge of coastal trade."
+    }
+  ],
+  "npc_muziris_kalyan": [
+    {
+      "id": "mk_1",
+      "speaker": "KALYAN",
+      "role": "MALABAR SPICE ELDER",
+      "text": "Our hill harvests yield the finest black pepper, {{playerName}}. Foreign merchant vessels anchor in our lagoon specifically for our harvests."
+    },
+    {
+      "id": "mk_2",
+      "speaker": "KALYAN",
+      "role": "MALABAR SPICE ELDER",
+      "text": "Load your ox carts with pepper and cardamom, {{playerName}}, before taking the Palakkad Gap pass inland to Madurai."
+    }
+  ],
+  "npc_muziris_marcus": [
+    {
+      "id": "mm_1",
+      "speaker": "YAVANA SEAFARER",
+      "role": "WESTERN SEAFARER",
+      "text": "Greetings, {{playerName}}! We sail from western waters with silver coinage, glassware, and wine amphorae to trade for your black pepper."
+    }
+  ],
+  "npc_muziris_sailor": [
+    {
+      "id": "mu_1",
+      "speaker": "UNNI",
+      "role": "COASTAL BOATMAN",
+      "text": "The river waters join the sea lagoon here, {{playerName}}. Our thatched quayside sheds protect your delicate spices from the damp rains."
+    }
+  ],
+  "narrator_madurai": [
+    {
+      "id": "nm_1",
+      "speaker": "SUNDARAM",
+      "role": "PANDYAN GUILD ELDER",
+      "text": "Vanakkam, {{playerName}}. Welcome to Madurai, ancient capital of the Pandyan kings along the Vaigai River."
+    },
+    {
+      "id": "nm_2",
+      "speaker": "SUNDARAM",
+      "role": "PANDYAN GUILD ELDER",
+      "text": "Let us see what you know of southern weaving guilds, Gulf of Mannar pearl fisheries, and ancient trade assemblies."
+    }
+  ],
+  "npc_madurai_weaver": [
+    {
+      "id": "mw_1",
+      "speaker": "SUNDARAM",
+      "role": "PANDYAN GUILD ELDER",
+      "text": "Vanakkam, {{playerName}}! Madurai raw cotton and woven fabrics are prized in northern cities for their softness and strength."
+    }
+  ],
+  "npc_madurai_pearl": [
+    {
+      "id": "mp_1",
+      "speaker": "VALLI",
+      "role": "PEARL TRADER",
+      "text": "Natural sea pearls brought by divers from the Gulf of Mannar, {{playerName}}! In the grand capital of Pataliputra, these jewels fetch royal sums."
+    }
+  ],
+  "npc_madurai_artisan": [
+    {
+      "id": "ma_1",
+      "speaker": "KANNAN",
+      "role": "STONE ARTISAN",
+      "text": "Carved stone oil lamps and granite pestles, {{playerName}}. Crafted with care to endure long caravan travel across the Deccan."
+    }
+  ],
+  "narrator_pataliputra": [
+    {
+      "id": "np_1",
+      "speaker": "ACHARYA SUTRADHAR",
+      "role": "MAURYAN SCHOLAR",
+      "text": "Welcome, {{playerName}}. You stand in Pataliputra on the sacred Ganga—the imperial seat of the Mauryan Empire."
+    },
+    {
+      "id": "np_2",
+      "speaker": "ACHARYA SUTRADHAR",
+      "role": "MAURYAN SCHOLAR",
+      "text": "Here the Arthashastra guides state commerce. Let us test your understanding of imperial markets, tolls, and continental routes."
+    }
+  ],
+  "npc_patali_guard": [
+    {
+      "id": "pg_1",
+      "speaker": "ARYAMAN",
+      "role": "CITY GATE OFFICER",
+      "text": "Salutations, {{playerName}}. Imperial toll registers show your caravan has journeyed across ancient trade routes to reach the Ganga!"
+    }
+  ],
+  "npc_patali_silk": [
+    {
+      "id": "ps_1",
+      "speaker": "DEVAPALA",
+      "role": "GUILD WEAVER",
+      "text": "Imperial fine cloth and Gangetic polished ware, {{playerName}}. Only verified goods of high craftsmanship trade within the Royal Bazaar."
+    }
+  ]
+}

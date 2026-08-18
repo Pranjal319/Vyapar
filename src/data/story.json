@@ -1,0 +1,310 @@
+{
+  "chapters": [
+    {
+      "id": "chapter_1",
+      "number": 1,
+      "roman": "I",
+      "title": "THE CROSSROADS OF AVANTI",
+      "location": "ujjain",
+      "locationName": "Ujjayini",
+      "destination": "bharuch",
+      "destinationName": "Bharukaccha",
+      "unlockObjectiveIds": ["ujn_talk_dev", "ujn_question", "ujn_talk_vasanti", "ujn_buy_goods"],
+      "quote": "Every great merchant begins with understanding the crossroads, the value of regional goods, and the routes that bind our land.",
+      "narratorIntro": "Welcome, traveler. Ujjayini stands at the central crossroads connecting northern and southern highways c. 250 BCE. Prepare your caravan before departing for the western sea.",
+      "rewards": {
+        "knowledge": 25,
+        "reputation": 10,
+        "mudras": 100
+      },
+      "objectives": [
+        {
+          "id": "ujn_talk_dev",
+          "label": "Speak with Sarthavaha Dev",
+          "type": "talk",
+          "target": "merchant_dev",
+          "dialogueId": "elder_merchant",
+          "location": "ujjain"
+        },
+        {
+          "id": "ujn_question",
+          "label": "Complete the Ujjayini trade challenge",
+          "type": "question",
+          "location": "ujjain"
+        },
+        {
+          "id": "ujn_talk_vasanti",
+          "label": "Consult Master Weaver Vasanti",
+          "type": "talk",
+          "target": "merchant_textile",
+          "dialogueId": "npc_textile",
+          "location": "ujjain"
+        },
+        {
+          "id": "ujn_buy_goods",
+          "label": "Buy Avanti Cotton Cloth or Agate Beads",
+          "type": "buy",
+          "target": "textile",
+          "altTarget": "gems",
+          "location": "ujjain"
+        },
+        {
+          "id": "ujn_travel_bharuch",
+          "label": "Travel overland to Bharukaccha",
+          "type": "travel",
+          "target": "bharuch",
+          "destination": "bharuch"
+        }
+      ]
+    },
+    {
+      "id": "chapter_2",
+      "number": 2,
+      "roman": "II",
+      "title": "GATEWAY TO THE WESTERN SEA",
+      "location": "bharuch",
+      "locationName": "Bharukaccha",
+      "destination": "muziris",
+      "destinationName": "Muciri",
+      "unlockObjectiveIds": ["bh_talk_meera", "bh_question", "bh_talk_vikram", "bh_sell_cargo", "bh_buy_salt"],
+      "quote": "Where river currents meet the western sea, ancient ports open India to long-distance maritime commerce.",
+      "narratorIntro": "You stand in Bharukaccha on the Narmada estuary. Seafaring dhows dock here laden with wealth from across the waters.",
+      "rewards": {
+        "knowledge": 30,
+        "reputation": 15,
+        "mudras": 150
+      },
+      "objectives": [
+        {
+          "id": "bh_talk_meera",
+          "label": "Speak with Port Trader Meera",
+          "type": "talk",
+          "target": "merchant_meera",
+          "dialogueId": "narrator_bharuch",
+          "location": "bharuch"
+        },
+        {
+          "id": "bh_question",
+          "label": "Pass the Bharukaccha maritime challenge",
+          "type": "question",
+          "location": "bharuch"
+        },
+        {
+          "id": "bh_talk_vikram",
+          "label": "Consult Captain Vikram on sea winds",
+          "type": "talk",
+          "target": "merchant_sailor",
+          "dialogueId": "npc_bharuch_sailor",
+          "location": "bharuch"
+        },
+        {
+          "id": "bh_sell_cargo",
+          "label": "Sell your inland cargo in Bharukaccha",
+          "type": "sell",
+          "target": "cargo",
+          "location": "bharuch"
+        },
+        {
+          "id": "bh_buy_salt",
+          "label": "Purchase coastal Sea Salt",
+          "type": "buy",
+          "target": "salt",
+          "altTarget": "gems",
+          "location": "bharuch"
+        },
+        {
+          "id": "bh_travel_muziris",
+          "label": "Travel along western sea route to Muciri",
+          "type": "travel",
+          "target": "muziris",
+          "destination": "muziris"
+        }
+      ]
+    },
+    {
+      "id": "chapter_3",
+      "number": 3,
+      "roman": "III",
+      "title": "THE MALABAR SPICE REALM",
+      "location": "muziris",
+      "locationName": "Muciri",
+      "destination": "madurai",
+      "destinationName": "Madurai",
+      "unlockObjectiveIds": ["muz_talk_kalyan", "muz_question", "muz_talk_marcus", "muz_sell_cargo", "muz_buy_pepper"],
+      "quote": "Black pepper and hill spices connect remote mountain valleys to royal courts and overseas emporiums.",
+      "narratorIntro": "Welcome to Muciri! Seafaring vessels arrive carrying silver coins to trade for prized Malabar Black Pepper.",
+      "rewards": {
+        "knowledge": 35,
+        "reputation": 20,
+        "mudras": 200
+      },
+      "objectives": [
+        {
+          "id": "muz_talk_kalyan",
+          "label": "Speak with Spice Master Kalyan",
+          "type": "talk",
+          "target": "merchant_kalyan",
+          "dialogueId": "narrator_muziris",
+          "location": "muziris"
+        },
+        {
+          "id": "muz_question",
+          "label": "Pass the Muciri spice trade challenge",
+          "type": "question",
+          "location": "muziris"
+        },
+        {
+          "id": "muz_talk_marcus",
+          "label": "Talk to Western Seafarer Marcus",
+          "type": "talk",
+          "target": "merchant_marcus",
+          "dialogueId": "npc_muziris_marcus",
+          "location": "muziris"
+        },
+        {
+          "id": "muz_sell_cargo",
+          "label": "Sell goods at Muciri harbor",
+          "type": "sell",
+          "target": "cargo",
+          "location": "muziris"
+        },
+        {
+          "id": "muz_buy_pepper",
+          "label": "Purchase Malabar Black Pepper (Black Gold)",
+          "type": "buy",
+          "target": "pepper",
+          "altTarget": "spices",
+          "location": "muziris"
+        },
+        {
+          "id": "muz_travel_madurai",
+          "label": "Travel through the Palakkad Gap to Madurai",
+          "type": "travel",
+          "target": "madurai",
+          "destination": "madurai"
+        }
+      ]
+    },
+    {
+      "id": "chapter_4",
+      "number": 4,
+      "roman": "IV",
+      "title": "SOUTHERN WEAVERS & PEARLS",
+      "location": "madurai",
+      "locationName": "Madurai",
+      "destination": "pataliputra",
+      "destinationName": "Pataliputra",
+      "unlockObjectiveIds": ["mad_talk_sundaram", "mad_question", "mad_talk_valli", "mad_sell_cargo", "mad_buy_cotton"],
+      "quote": "Trade carries more than cloth and spices—it weaves together diverse regional cultures across northern and southern realms.",
+      "narratorIntro": "You have reached Madurai, ancient capital of the Pandyan realm! Guild weavers and pearl divers produce treasures prized across the continent.",
+      "rewards": {
+        "knowledge": 40,
+        "reputation": 25,
+        "mudras": 250
+      },
+      "objectives": [
+        {
+          "id": "mad_talk_sundaram",
+          "label": "Speak with Master Weaver Sundaram",
+          "type": "talk",
+          "target": "merchant_sundaram",
+          "dialogueId": "narrator_madurai",
+          "location": "madurai"
+        },
+        {
+          "id": "mad_question",
+          "label": "Answer the Sangam trade challenge",
+          "type": "question",
+          "location": "madurai"
+        },
+        {
+          "id": "mad_talk_valli",
+          "label": "Consult Pearl Merchant Valli",
+          "type": "talk",
+          "target": "merchant_valli",
+          "dialogueId": "npc_madurai_pearl",
+          "location": "madurai"
+        },
+        {
+          "id": "mad_sell_cargo",
+          "label": "Sell Malabar pepper in Madurai",
+          "type": "sell",
+          "target": "cargo",
+          "location": "madurai"
+        },
+        {
+          "id": "mad_buy_cotton",
+          "label": "Purchase Southern Raw Cotton or Natural Pearls",
+          "type": "buy",
+          "target": "cotton",
+          "altTarget": "gems",
+          "location": "madurai"
+        },
+        {
+          "id": "mad_travel_pataliputra",
+          "label": "Travel north along Dakshinapatha to Pataliputra",
+          "type": "travel",
+          "target": "pataliputra",
+          "destination": "pataliputra"
+        }
+      ]
+    },
+    {
+      "id": "chapter_5",
+      "number": 5,
+      "roman": "V",
+      "title": "THE IMPERIAL CAPITAL",
+      "location": "pataliputra",
+      "locationName": "Pataliputra",
+      "destination": "ujjain",
+      "destinationName": "Ujjayini",
+      "unlockObjectiveIds": ["pata_talk_sutradhar", "pata_question", "pata_talk_aryaman", "pata_sell_cargo", "pata_buy_grain"],
+      "quote": "A master merchant has mastered overland highways, river networks, and maritime ports across all Bharat.",
+      "narratorIntro": "You stand in Pataliputra on the sacred Ganga River—the imperial metropolis of the Mauryan realm under Emperor Ashoka. Your trading journey encompasses all India!",
+      "rewards": {
+        "knowledge": 50,
+        "reputation": 30,
+        "mudras": 300
+      },
+      "objectives": [
+        {
+          "id": "pata_talk_sutradhar",
+          "label": "Speak with Acharya Sutradhar at Royal Bazaar",
+          "type": "talk",
+          "target": "merchant_sutradhar",
+          "dialogueId": "narrator_pataliputra",
+          "location": "pataliputra"
+        },
+        {
+          "id": "pata_question",
+          "label": "Pass the Arthashastra grand challenge",
+          "type": "question",
+          "location": "pataliputra"
+        },
+        {
+          "id": "pata_talk_aryaman",
+          "label": "Speak with Senapati Aryaman at the city gate",
+          "type": "talk",
+          "target": "merchant_patali_guard",
+          "dialogueId": "npc_patali_guard",
+          "location": "pataliputra"
+        },
+        {
+          "id": "pata_sell_cargo",
+          "label": "Sell southern pearls and cotton for imperial profit",
+          "type": "sell",
+          "target": "cargo",
+          "location": "pataliputra"
+        },
+        {
+          "id": "pata_buy_grain",
+          "label": "Acquire Gangetic Rice or Polished Ware",
+          "type": "buy",
+          "target": "rice",
+          "altTarget": "pottery",
+          "location": "pataliputra"
+        }
+      ]
+    }
+  ]
+}

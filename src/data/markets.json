@@ -1,0 +1,92 @@
+{
+  "pataliputra": {
+    "id": "pataliputra",
+    "name": "Pataliputra Royal Bazaar",
+    "region": "Magadha Heartland (c. 250 BCE)",
+    "news": "The Mauryan state granaries and river quays are filled with Gangetic rice; imperial nobles pay fortunes for southern pearls and Malabar pepper.",
+    "tip": "Gangetic Rice and Northern Black Polished Ware are cheapest here; sell southern luxury pearls and pepper for maximum profit.",
+    "availableGoods": ["rice", "pottery", "textile"],
+    "goods": {
+      "rice":     { "demand": "low",        "demandMult": 0.90, "supply": "very_high", "supplyMult": 0.68 },
+      "pottery":  { "demand": "low",        "demandMult": 0.85, "supply": "very_high", "supplyMult": 0.65 },
+      "textile":  { "demand": "medium",     "demandMult": 1.05, "supply": "high",      "supplyMult": 0.80 },
+      "salt":     { "demand": "high",       "demandMult": 1.40, "supply": "low",       "supplyMult": 1.30 },
+      "cotton":   { "demand": "high",       "demandMult": 1.40, "supply": "low",       "supplyMult": 1.25 },
+      "spices":   { "demand": "very_high",  "demandMult": 1.50, "supply": "low",       "supplyMult": 1.35 },
+      "pepper":   { "demand": "very_high",  "demandMult": 1.60, "supply": "low",       "supplyMult": 1.40 },
+      "gems":     { "demand": "very_high",  "demandMult": 1.55, "supply": "low",       "supplyMult": 1.40 }
+    }
+  },
+  "ujjain": {
+    "id": "ujjain",
+    "name": "Ujjayini Crossroads Bazaar",
+    "region": "Avanti Region (c. 250 BCE)",
+    "news": "Caravans arriving along the Dakshinapatha seek coastal salt and Malabar spices; local weavers offer fine dyed cloth.",
+    "tip": "Fine textiles, raw cotton, and agate beads are plentiful in Ujjayini; transport them south or west for substantial profit.",
+    "availableGoods": ["textile", "gems", "pottery", "cotton"],
+    "goods": {
+      "textile":  { "demand": "medium",     "demandMult": 1.00, "supply": "high",      "supplyMult": 0.78 },
+      "gems":     { "demand": "medium",     "demandMult": 1.05, "supply": "high",      "supplyMult": 0.82 },
+      "cotton":   { "demand": "medium",     "demandMult": 1.00, "supply": "high",      "supplyMult": 0.80 },
+      "pottery":  { "demand": "low",        "demandMult": 0.90, "supply": "high",      "supplyMult": 0.80 },
+      "rice":     { "demand": "medium",     "demandMult": 1.15, "supply": "medium",    "supplyMult": 1.00 },
+      "salt":     { "demand": "high",       "demandMult": 1.30, "supply": "low",       "supplyMult": 1.20 },
+      "spices":   { "demand": "high",       "demandMult": 1.30, "supply": "medium",    "supplyMult": 1.05 },
+      "pepper":   { "demand": "very_high",  "demandMult": 1.45, "supply": "low",       "supplyMult": 1.25 }
+    }
+  },
+  "bharuch": {
+    "id": "bharuch",
+    "name": "Bharukaccha Estuary Port",
+    "region": "Western Coastline (c. 250 BCE)",
+    "news": "Seafaring merchant dhows have anchored at the Narmada estuary, offering high rates for inland muslin and gemstones.",
+    "tip": "Harvested sea salt and polished beads are cheap here; sell inland textiles to maritime traders for top value.",
+    "availableGoods": ["salt", "gems", "pottery"],
+    "goods": {
+      "salt":     { "demand": "low",        "demandMult": 0.85, "supply": "very_high", "supplyMult": 0.65 },
+      "gems":     { "demand": "high",       "demandMult": 1.10, "supply": "high",      "supplyMult": 0.80 },
+      "pottery":  { "demand": "medium",     "demandMult": 1.00, "supply": "high",      "supplyMult": 0.85 },
+      "cotton":   { "demand": "medium",     "demandMult": 1.15, "supply": "medium",    "supplyMult": 1.05 },
+      "pepper":   { "demand": "high",       "demandMult": 1.30, "supply": "medium",    "supplyMult": 1.00 },
+      "spices":   { "demand": "high",       "demandMult": 1.25, "supply": "medium",    "supplyMult": 1.05 },
+      "rice":     { "demand": "very_high",  "demandMult": 1.40, "supply": "low",       "supplyMult": 1.25 },
+      "textile":  { "demand": "very_high",  "demandMult": 1.45, "supply": "low",       "supplyMult": 1.30 }
+    }
+  },
+  "madurai": {
+    "id": "madurai",
+    "name": "Madurai Vaigai Bazaar",
+    "region": "Pandyan Southern Realm (c. 250 BCE)",
+    "news": "Pandyan divers have returned with lustrous sea pearls from the Gulf of Mannar; cotton weaving guilds work at full capacity.",
+    "tip": "Raw Cotton and Natural Pearls are uniquely available here; take them north along the Dakshinapatha for immense profit.",
+    "availableGoods": ["cotton", "gems", "spices", "textile"],
+    "goods": {
+      "cotton":   { "demand": "medium",     "demandMult": 0.90, "supply": "very_high", "supplyMult": 0.65 },
+      "gems":     { "demand": "medium",     "demandMult": 1.00, "supply": "very_high", "supplyMult": 0.70 },
+      "spices":   { "demand": "medium",     "demandMult": 1.00, "supply": "high",      "supplyMult": 0.75 },
+      "textile":  { "demand": "high",       "demandMult": 1.25, "supply": "medium",    "supplyMult": 0.95 },
+      "pepper":   { "demand": "high",       "demandMult": 1.25, "supply": "medium",    "supplyMult": 0.95 },
+      "salt":     { "demand": "high",       "demandMult": 1.30, "supply": "medium",    "supplyMult": 1.05 },
+      "rice":     { "demand": "high",       "demandMult": 1.25, "supply": "medium",    "supplyMult": 1.05 },
+      "pottery":  { "demand": "very_high",  "demandMult": 1.40, "supply": "low",       "supplyMult": 1.25 }
+    }
+  },
+  "muziris": {
+    "id": "muziris",
+    "name": "Muciri Malabar Spice Harbor",
+    "region": "Malabar Coastline (c. 250 BCE)",
+    "news": "The monsoon harvest of Black Pepper and Cardamom is abundant; seafaring merchants trade silver coins for fragrant spices.",
+    "tip": "Buy Black Pepper and Hill Spices at bottom prices here; transport them inland across the Palakkad Gap.",
+    "availableGoods": ["pepper", "spices", "gems"],
+    "goods": {
+      "pepper":   { "demand": "medium",     "demandMult": 0.95, "supply": "very_high", "supplyMult": 0.68 },
+      "spices":   { "demand": "medium",     "demandMult": 0.95, "supply": "very_high", "supplyMult": 0.70 },
+      "gems":     { "demand": "high",       "demandMult": 1.20, "supply": "medium",    "supplyMult": 0.95 },
+      "salt":     { "demand": "medium",     "demandMult": 1.15, "supply": "medium",    "supplyMult": 1.00 },
+      "cotton":   { "demand": "high",       "demandMult": 1.30, "supply": "low",       "supplyMult": 1.20 },
+      "pottery":  { "demand": "high",       "demandMult": 1.35, "supply": "low",       "supplyMult": 1.25 },
+      "rice":     { "demand": "very_high",  "demandMult": 1.45, "supply": "low",       "supplyMult": 1.35 },
+      "textile":  { "demand": "very_high",  "demandMult": 1.50, "supply": "low",       "supplyMult": 1.30 }
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "pataliputra": {
+    "id": "pataliputra",
+    "name": "Pataliputra",
+    "region": "Magadha Heartland (c. 250 BCE)",
+    "type": "Mauryan Imperial Capital & Gangetic Port",
+    "intro": "Pataliputra, situated at the confluence of the sacred Ganga and Son rivers, serves as the monumental capital of the Mauryan Empire under Emperor Ashoka. It is the premier political, economic, and administrative metropolis of the ancient subcontinent.",
+    "historicalFacts": [
+      "Monumental imperial capital of the Mauryan Empire under Emperor Ashoka (reign c. 268–232 BCE).",
+      "Terminus of the grand northern Uttarapatha highway and primary river port on the Ganga River.",
+      "Seat of royal storehouses (Koshthagara), royal mints producing punch-marked silver coins, and flourishing craft guilds."
+    ],
+    "tradeContext": "Pataliputra acts as the central clearinghouse of continental trade. Caravans and river barges arrive carrying southern pearls, Malabar pepper, western salt, and regional raw cotton in exchange for Gangetic grain, imperial silk, and Northern Black Polished Ware.",
+    "majorGoods": ["textiles", "rice", "pottery"],
+    "disclaimer": "Game trade systems are based on ancient Indian historical trade routes c. 250 BCE."
+  },
+  "ujjain": {
+    "id": "ujjain",
+    "name": "Ujjayini",
+    "region": "Avanti Region / Malwa Plateau (c. 250 BCE)",
+    "type": "Inland Crossroads & Viceregal Hub",
+    "intro": "Located along the sacred Kshipra River in the Avanti region, Ujjayini is the paramount inland commercial crossroads of ancient India, linking the northern plains with the western seaports and the southern Dakshinapatha.",
+    "historicalFacts": [
+      "Major provincial capital of the Mauryan realm, governed by Ashoka as viceroy prior to his ascension.",
+      "Vital junction where the northern highway meets the southern Dakshinapatha trade route.",
+      "Renowned ancient center for astronomical observation, lapidary gemstone cutting, and skilled textile weaving."
+    ],
+    "tradeContext": "Caravans passing through central India assemble in Ujjayini's bustling bazaars to trade dyed cotton cloth, carnelian beads, and pottery while seeking coastal sea salt and southern hill spices.",
+    "majorGoods": ["textiles", "gems", "cotton", "pottery"],
+    "disclaimer": "Game trade systems are based on ancient Indian historical trade routes c. 250 BCE."
+  },
+  "bharuch": {
+    "id": "bharuch",
+    "name": "Bharukaccha",
+    "region": "Bhrigukachha / Narmada Estuary (c. 250 BCE)",
+    "type": "Western Maritime Seaport & Gateway",
+    "intro": "Situated near the mouth of the Narmada River on the western sea, Bharukaccha (celebrated by ancient navigators as Barygaza) is the chief western maritime haven connecting inland trade caravans with Arabian Sea mariners.",
+    "historicalFacts": [
+      "Foremost western seaport facilitating long-distance maritime exchange across the Arabian Sea and Persian Gulf.",
+      "Major center for coastal solar sea salt production and the cutting and export of agate and carnelian beads.",
+      "Handled riverine barge transport descending the Narmada as well as coastal and ocean-going merchant dhows."
+    ],
+    "tradeContext": "Merchants at Bharukaccha exchange abundant coastal salt, gemstones, and transport jars for fine inland muslins, grains, and Malabar spices bound for western sea routes.",
+    "majorGoods": ["salt", "gems", "pottery"],
+    "disclaimer": "Game trade systems are based on ancient Indian historical trade routes c. 250 BCE."
+  },
+  "madurai": {
+    "id": "madurai",
+    "name": "Madurai",
+    "region": "Pandyan Southern Realm (c. 250 BCE)",
+    "type": "Southern Sangam Metropolis & Pearl Center",
+    "intro": "Situated along the fertile Vaigai River basin, Madurai is the celebrated capital of the early Pandyan kingdom, famous for early Sangam assemblies, gossamer cotton weaving, and the ancient pearl fisheries of the Gulf of Mannar.",
+    "historicalFacts": [
+      "Historic royal capital of the early Pandyan dynasty and patron city of early Tamil Sangam literature.",
+      "World-famous trading center for natural sea pearls harvested by divers in the Gulf of Mannar.",
+      "Known for day markets (Naalangadi) and night markets (Allangadi) offering fine cotton fabrics and hill aromatics."
+    ],
+    "tradeContext": "Madurai's lively guilds offer fine raw cotton bales, lustrous sea pearls, and hill cardamom, creating immense demand for northern polished ware pottery, salt, and Gangetic textiles.",
+    "majorGoods": ["cotton", "gems", "spices", "textile"],
+    "disclaimer": "Game trade systems are based on ancient Indian historical trade routes c. 250 BCE."
+  },
+  "muziris": {
+    "id": "muziris",
+    "name": "Muciri",
+    "region": "Malabar Coast (c. 250 BCE)",
+    "type": "Malabar Coast Spice Emporium",
+    "intro": "Associated with the Periyar River estuary on the tropical Malabar Coast, Muciri is an ancient maritime trade center celebrated across ancient trade networks for its black pepper, hill spices, and sheltered lagoon harbor.",
+    "historicalFacts": [
+      "World-famous primary export hub for Malabar black pepper, traded across oceans as precious 'Black Gold'.",
+      "Sheltered backwaters provided safe harbor for coastal dhows and foreign merchant vessels riding seasonal monsoon winds.",
+      "Key Indian Ocean coastal emporium linking southwestern spice harvests with northern and western trade networks."
+    ],
+    "tradeContext": "Black pepper and cardamom harvested in the nearby hills draw merchants from across the subcontinent and beyond. Muciri commands top prices for food grains, textiles, and fine pottery.",
+    "majorGoods": ["pepper", "spices", "gems"],
+    "disclaimer": "Game trade systems are based on ancient Indian historical trade routes c. 250 BCE."
+  }
+}

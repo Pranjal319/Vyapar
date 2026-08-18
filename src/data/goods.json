@@ -1,0 +1,130 @@
+[
+  {
+    "id": "textile",
+    "name": "Fine Muslin & Cloth",
+    "description": "Hand-spun cotton cloth and fine muslin dyed with natural madder and indigo.",
+    "icon": "🧵",
+    "basePrice": 70,
+    "weight": 1,
+    "producedAt": ["ujjain", "pataliputra"],
+    "locationPrices": {
+      "ujjain": { "buy": 55, "sell": 60 },
+      "pataliputra": { "buy": 60, "sell": 68 },
+      "madurai": { "buy": 68, "sell": 78 },
+      "bharuch": { "buy": 85, "sell": 105 },
+      "muziris": { "buy": 105, "sell": 125 }
+    }
+  },
+  {
+    "id": "pepper",
+    "name": "Malabar Black Pepper",
+    "description": "Prized aromatic black pepper berries, known in ancient trade as Black Gold.",
+    "icon": "🌶️",
+    "basePrice": 50,
+    "weight": 1,
+    "producedAt": ["muziris"],
+    "locationPrices": {
+      "muziris": { "buy": 34, "sell": 40 },
+      "madurai": { "buy": 48, "sell": 60 },
+      "bharuch": { "buy": 58, "sell": 65 },
+      "ujjain": { "buy": 78, "sell": 92 },
+      "pataliputra": { "buy": 95, "sell": 112 }
+    }
+  },
+  {
+    "id": "salt",
+    "name": "Coastal Sea Salt",
+    "description": "Solar sea salt harvested from western tidal flats, essential for preservation.",
+    "icon": "🧂",
+    "basePrice": 30,
+    "weight": 1,
+    "producedAt": ["bharuch"],
+    "locationPrices": {
+      "bharuch": { "buy": 20, "sell": 24 },
+      "muziris": { "buy": 28, "sell": 35 },
+      "madurai": { "buy": 34, "sell": 42 },
+      "ujjain": { "buy": 40, "sell": 48 },
+      "pataliputra": { "buy": 46, "sell": 55 }
+    }
+  },
+  {
+    "id": "rice",
+    "name": "Gangetic Grain & Rice",
+    "description": "Nutritious harvested grain from the fertile alluvium of the Gangetic river plains.",
+    "icon": "🌾",
+    "basePrice": 40,
+    "weight": 1,
+    "producedAt": ["pataliputra"],
+    "locationPrices": {
+      "pataliputra": { "buy": 26, "sell": 32 },
+      "ujjain": { "buy": 38, "sell": 46 },
+      "madurai": { "buy": 44, "sell": 52 },
+      "bharuch": { "buy": 50, "sell": 58 },
+      "muziris": { "buy": 55, "sell": 65 }
+    }
+  },
+  {
+    "id": "spices",
+    "name": "Hill Spices & Cardamom",
+    "description": "Fragrant green cardamom pods, wild cinnamon bark, and hill cloves.",
+    "icon": "🌿",
+    "basePrice": 65,
+    "weight": 1,
+    "producedAt": ["muziris", "madurai"],
+    "locationPrices": {
+      "muziris": { "buy": 44, "sell": 50 },
+      "madurai": { "buy": 48, "sell": 56 },
+      "bharuch": { "buy": 72, "sell": 85 },
+      "ujjain": { "buy": 78, "sell": 90 },
+      "pataliputra": { "buy": 98, "sell": 120 }
+    }
+  },
+  {
+    "id": "cotton",
+    "name": "Southern Raw Cotton",
+    "description": "Soft harvested raw cotton bales ready for spinning into fine garments.",
+    "icon": "🧶",
+    "basePrice": 45,
+    "weight": 1,
+    "producedAt": ["madurai", "ujjain"],
+    "locationPrices": {
+      "madurai": { "buy": 28, "sell": 34 },
+      "ujjain": { "buy": 36, "sell": 42 },
+      "bharuch": { "buy": 46, "sell": 55 },
+      "muziris": { "buy": 52, "sell": 62 },
+      "pataliputra": { "buy": 65, "sell": 78 }
+    }
+  },
+  {
+    "id": "pottery",
+    "name": "Polished Ware & Pottery",
+    "description": "Lustrous Northern Black Polished Ware and terracotta storage jars.",
+    "icon": "🏺",
+    "basePrice": 35,
+    "weight": 1,
+    "producedAt": ["pataliputra", "ujjain"],
+    "locationPrices": {
+      "pataliputra": { "buy": 20, "sell": 25 },
+      "ujjain": { "buy": 28, "sell": 34 },
+      "bharuch": { "buy": 36, "sell": 44 },
+      "madurai": { "buy": 42, "sell": 50 },
+      "muziris": { "buy": 45, "sell": 52 }
+    }
+  },
+  {
+    "id": "gems",
+    "name": "Pearls & Agate Beads",
+    "description": "Polished carnelian beads from the west and natural sea pearls from southern waters.",
+    "icon": "💎",
+    "basePrice": 120,
+    "weight": 1,
+    "producedAt": ["madurai", "bharuch", "ujjain"],
+    "locationPrices": {
+      "madurai": { "buy": 84, "sell": 98 },
+      "bharuch": { "buy": 95, "sell": 110 },
+      "ujjain": { "buy": 100, "sell": 118 },
+      "muziris": { "buy": 125, "sell": 145 },
+      "pataliputra": { "buy": 150, "sell": 185 }
+    }
+  }
+]

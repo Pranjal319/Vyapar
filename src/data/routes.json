@@ -1,0 +1,181 @@
+[
+  {
+    "id": "ujjain_bharuch_overland",
+    "name": "Narmada Valley Overland Highway",
+    "from": "ujjain",
+    "to": "bharuch",
+    "type": "overland",
+    "icon": "🐂",
+    "distance": "Medium",
+    "travelDays": 3,
+    "days": 3,
+    "risk": "Medium",
+    "transport": "Caravan / Ox Cart",
+    "expectedConditions": "Dry plains & scrub hills",
+    "travelDuration": 5500,
+    "description": "The classic ancient overland trade route following the Narmada valley from the crossroads of Ujjain to the western seaport of Bharuch.",
+    "waypoints": [
+      { "x": 1450, "y": 1050 },
+      { "x": 1350, "y": 1100 },
+      { "x": 1220, "y": 1140 },
+      { "x": 1050, "y": 1180 }
+    ]
+  },
+  {
+    "id": "ujjain_bharuch_river",
+    "name": "Narmada Riverine Waterway",
+    "from": "ujjain",
+    "to": "bharuch",
+    "type": "river",
+    "icon": "🛶",
+    "distance": "Medium",
+    "travelDays": 2,
+    "days": 2,
+    "risk": "Low",
+    "transport": "River Boat",
+    "expectedConditions": "Calm river currents & sandy shores",
+    "travelDuration": 4500,
+    "description": "Downstream river transit utilizing wooden cargo boats on the Narmada River directly to the Barygaza harbor mouth.",
+    "waypoints": [
+      { "x": 1450, "y": 1050 },
+      { "x": 1300, "y": 1120 },
+      { "x": 1180, "y": 1150 },
+      { "x": 1050, "y": 1180 }
+    ]
+  },
+  {
+    "id": "bharuch_muziris_sea",
+    "name": "Arabian Sea Coastal Maritime Route",
+    "from": "bharuch",
+    "to": "muziris",
+    "type": "sea",
+    "icon": "⛵",
+    "distance": "Long",
+    "travelDays": 3,
+    "days": 3,
+    "risk": "High",
+    "transport": "Merchant Ship (Dhow)",
+    "expectedConditions": "Seasonal monsoon winds & ocean swells",
+    "travelDuration": 6000,
+    "description": "Fast ocean voyage sailing southward along the Konkan and Malabar coasts aided by seasonal monsoon winds.",
+    "waypoints": [
+      { "x": 1050, "y": 1180 },
+      { "x": 920, "y": 1380 },
+      { "x": 880, "y": 1620 },
+      { "x": 960, "y": 1850 },
+      { "x": 1220, "y": 1980 }
+    ]
+  },
+  {
+    "id": "bharuch_muziris_overland",
+    "name": "Western Ghats Coastal Highway",
+    "from": "bharuch",
+    "to": "muziris",
+    "type": "overland",
+    "icon": "🐂",
+    "distance": "Long",
+    "travelDays": 5,
+    "days": 5,
+    "risk": "Medium",
+    "transport": "Caravan / Ox Cart",
+    "expectedConditions": "Dense coastal forests & hill passes",
+    "travelDuration": 7500,
+    "description": "Overland caravan highway snaking down the western peninsula past coastal settlements into the Malabar spice realm.",
+    "waypoints": [
+      { "x": 1050, "y": 1180 },
+      { "x": 1100, "y": 1400 },
+      { "x": 1150, "y": 1650 },
+      { "x": 1220, "y": 1980 }
+    ]
+  },
+  {
+    "id": "muziris_madurai_overland",
+    "name": "Palakkad Gap Mountain Pass",
+    "from": "muziris",
+    "to": "madurai",
+    "type": "overland",
+    "icon": "⛰️",
+    "distance": "Medium",
+    "travelDays": 3,
+    "days": 3,
+    "risk": "Medium",
+    "transport": "Caravan / Ox Cart",
+    "expectedConditions": "Mountain passes & Cardamom Hills",
+    "travelDuration": 5000,
+    "description": "Historic overland pass through the natural Palakkad gap in the Western Ghats connecting Malabar ports to Pandyan plains.",
+    "waypoints": [
+      { "x": 1220, "y": 1980 },
+      { "x": 1280, "y": 1940 },
+      { "x": 1340, "y": 1900 },
+      { "x": 1420, "y": 1850 }
+    ]
+  },
+  {
+    "id": "madurai_pataliputra_overland",
+    "name": "Dakshinapatha Imperial Highway",
+    "from": "madurai",
+    "to": "pataliputra",
+    "type": "overland",
+    "icon": "🐪",
+    "distance": "Very Long",
+    "travelDays": 5,
+    "days": 5,
+    "risk": "High",
+    "transport": "Caravan / Ox Cart",
+    "expectedConditions": "Deccan plateaus & Vindhya passes",
+    "travelDuration": 7500,
+    "description": "The grand continental artery traversing peninsular India northwards to the Gangetic capital.",
+    "waypoints": [
+      { "x": 1420, "y": 1850 },
+      { "x": 1550, "y": 1500 },
+      { "x": 1750, "y": 1150 },
+      { "x": 1950, "y": 900 },
+      { "x": 2100, "y": 750 }
+    ]
+  },
+  {
+    "id": "pataliputra_ujjain_river",
+    "name": "Ganga & Son Riverway to Avanti",
+    "from": "pataliputra",
+    "to": "ujjain",
+    "type": "river",
+    "icon": "🛶",
+    "distance": "Long",
+    "travelDays": 3,
+    "days": 3,
+    "risk": "Low",
+    "transport": "River Boat",
+    "expectedConditions": "Wide Gangetic river currents",
+    "travelDuration": 5500,
+    "description": "River barge navigation connecting the imperial river docks of Pataliputra toward central highways.",
+    "waypoints": [
+      { "x": 2100, "y": 750 },
+      { "x": 1900, "y": 820 },
+      { "x": 1700, "y": 920 },
+      { "x": 1450, "y": 1050 }
+    ]
+  },
+  {
+    "id": "pataliputra_ujjain_overland",
+    "name": "Uttarapatha-Avanti Trunk Road",
+    "from": "pataliputra",
+    "to": "ujjain",
+    "type": "overland",
+    "icon": "🐂",
+    "distance": "Long",
+    "travelDays": 4,
+    "days": 4,
+    "risk": "Medium",
+    "transport": "Caravan / Ox Cart",
+    "expectedConditions": "Fertile plains & paved royal highway",
+    "travelDuration": 6000,
+    "description": "Maintained royal highway with roadside shelters, wells, and imperial toll gates.",
+    "waypoints": [
+      { "x": 2100, "y": 750 },
+      { "x": 1950, "y": 820 },
+      { "x": 1780, "y": 910 },
+      { "x": 1620, "y": 980 },
+      { "x": 1450, "y": 1050 }
+    ]
+  }
+]

@@ -1,0 +1,192 @@
+[
+  {
+    "id": "dust_storm",
+    "title": "DUST STORM ENCOUNTER",
+    "type": "weather",
+    "icon": "🌪️",
+    "description": "A dark swirling cloud rises over the ancient trade track. Your caravan is approaching a severe dry dust storm.",
+    "historicalNote": "Ancient merchant caravans across central India frequently faced intense seasonal dust storms (Andhi), requiring experienced caravan guides to preserve draft animals and cargo.",
+    "choices": [
+      {
+        "id": "wait",
+        "label": "[A] Wait for the storm to pass",
+        "hint": "Safe choice • Adds +1 Travel Day",
+        "effects": { "travelDelay": 1, "gold": 0, "knowledge": 0, "cargoLoss": 0, "reputation": 0 },
+        "resultText": "Your caravan halted safely beneath roadside acacia trees until the storm subsided. You lost 1 travel day, but kept all cargo secure."
+      },
+      {
+        "id": "continue",
+        "label": "[B] Continue carefully through the storm",
+        "hint": "Risk cargo damage • No delay",
+        "effects": { "travelDelay": 0, "gold": -15, "knowledge": 0, "cargoLoss": 0, "reputation": 0 },
+        "resultText": "Your caravan pressed onward through the blinding dust. Minor cart repairs and tarp patching cost 15 Mudras, but no days were lost."
+      },
+      {
+        "id": "detour",
+        "label": "[C] Take an alternate sheltered bypass",
+        "hint": "Safe detour • Adds +1 Travel Day • +5 Knowledge",
+        "effects": { "travelDelay": 1, "gold": 0, "knowledge": 5, "cargoLoss": 0, "reputation": 0 },
+        "resultText": "You guided the caravan through a sheltered valley bypass. The detour took 1 extra day, but you discovered a new regional landmark (+5 Knowledge)!"
+      }
+    ]
+  },
+  {
+    "id": "river_crossing",
+    "title": "RIVER CROSSING",
+    "type": "obstacle",
+    "icon": "🌊",
+    "description": "The caravan has reached a swollen river crossing. Strong currents flow between the banks.",
+    "historicalNote": "Ancient Indian trade routes intersected major river tributaries where local ferrymen (Tarapalas) operated wooden barges for merchant caravans.",
+    "choices": [
+      {
+        "id": "pay_boatman",
+        "label": "[A] Pay a local boatman for ferry passage",
+        "hint": "Cost: -10 Mudras • Safe crossing",
+        "effects": { "travelDelay": 0, "gold": -10, "knowledge": 0, "cargoLoss": 0, "reputation": 1 },
+        "resultText": "The local boatman efficiently ferried your carts and beasts across the deep channel (-10 Mudras). Safe and prompt crossing!"
+      },
+      {
+        "id": "wait_crossing",
+        "label": "[B] Wait for the river water level to recede",
+        "hint": "Free • Adds +1 Travel Day",
+        "effects": { "travelDelay": 1, "gold": 0, "knowledge": 0, "cargoLoss": 0, "reputation": 0 },
+        "resultText": "You camped by the riverbank until morning when the waters receded. Travel took 1 extra day."
+      },
+      {
+        "id": "attempt_crossing",
+        "label": "[C] Attempt the crossing yourself",
+        "hint": "Risky • May damage cart axle",
+        "effects": { "travelDelay": 0, "gold": -20, "knowledge": 0, "cargoLoss": 0, "reputation": 0 },
+        "resultText": "Your team forded the rocky shallows. You crossed without delay, but wheel repairs at the far bank cost 20 Mudras."
+      }
+    ]
+  },
+  {
+    "id": "roadblock",
+    "title": "ROADBLOCK & TRAVELLERS",
+    "type": "encounter",
+    "icon": "🚧",
+    "description": "A group of regional travellers, guards, and toll collectors has blocked the trade highway ahead.",
+    "historicalNote": "Provincial authorities and guild alliances regulated ancient highways, checking caravan trade permits and collecting standard toll revenues (Shulka).",
+    "choices": [
+      {
+        "id": "negotiate",
+        "label": "[A] Negotiate using your merchant reputation",
+        "hint": "Reputation check • Safe passage • +2 Reputation",
+        "effects": { "travelDelay": 0, "gold": 0, "knowledge": 0, "cargoLoss": 0, "reputation": 2 },
+        "resultText": "Your respectful greetings and trading credentials impressed the wardens. They granted your caravan immediate free passage (+2 Reputation)!"
+      },
+      {
+        "id": "pay_toll",
+        "label": "[B] Pay standard highway toll fee",
+        "hint": "Cost: -15 Mudras • Instant passage",
+        "effects": { "travelDelay": 0, "gold": -15, "knowledge": 0, "cargoLoss": 0, "reputation": 0 },
+        "resultText": "You paid the standard highway maintenance fee (-15 Mudras) and continued immediately."
+      },
+      {
+        "id": "wait_clear",
+        "label": "[C] Wait for the congestion to clear",
+        "hint": "Free • Adds +1 Travel Day",
+        "effects": { "travelDelay": 1, "gold": 0, "knowledge": 0, "cargoLoss": 0, "reputation": 0 },
+        "resultText": "You rested your caravan while the crowd dispersed. Travel was delayed by 1 day."
+      }
+    ]
+  },
+  {
+    "id": "broken_cart",
+    "title": "BROKEN CART AXLE",
+    "type": "mishap",
+    "icon": "🔨",
+    "description": "One of the heavy ox carts has cracked an axle on a rough stone section of the roadway.",
+    "historicalNote": "Caravan leaders (Sarthavahas) traveled with spare spokes, axes, and timber to repair heavy wooden bullock carts on long overland tracks.",
+    "choices": [
+      {
+        "id": "repair_self",
+        "label": "[A] Repair the axle with spare timber",
+        "hint": "Takes time • Adds +1 Travel Day",
+        "effects": { "travelDelay": 1, "gold": 0, "knowledge": 0, "cargoLoss": 0, "reputation": 0 },
+        "resultText": "Your caravan team worked diligently to carve a replacement wooden axle. The repair was sturdy, adding 1 travel day."
+      },
+      {
+        "id": "pay_craftsman",
+        "label": "[B] Pay a local village carpenter",
+        "hint": "Cost: -15 Mudras • Fast repair",
+        "effects": { "travelDelay": 0, "gold": -15, "knowledge": 0, "cargoLoss": 0, "reputation": 0 },
+        "resultText": "A nearby artisan fashioned a strong hardwood axle quickly (-15 Mudras). Your caravan rolled on without delay!"
+      },
+      {
+        "id": "reorganize_cargo",
+        "label": "[C] Reorganize cargo tightly across other beasts",
+        "hint": "Careful cargo management • +5 Knowledge",
+        "effects": { "travelDelay": 0, "gold": 0, "knowledge": 5, "cargoLoss": 0, "reputation": 1 },
+        "resultText": "You redistributed the weight expertly across your pack animals, learning efficient cargo distribution (+5 Knowledge, +1 Reputation)!"
+      }
+    ]
+  },
+  {
+    "id": "local_merchant",
+    "title": "LOCAL TRAVELLING TRADER",
+    "type": "trade_opportunity",
+    "icon": "👳‍♂️",
+    "description": "You meet a travelling regional merchant resting with pack mules: 'Greetings! I have surplus coastal Salt and spices. Would you like to trade?'",
+    "historicalNote": "Spontaneous trailside barter and trade between passing caravans was a frequent feature of ancient Indian long-distance highways.",
+    "choices": [
+      {
+        "id": "buy_bargain",
+        "label": "[A] Buy 1 Salt cargo at a discounted price",
+        "hint": "Cost: -15 Mudras • Adds +1 Salt to Cargo",
+        "effects": { "travelDelay": 0, "gold": -15, "knowledge": 0, "cargoLoss": 0, "reputation": 1, "addGood": "salt" },
+        "resultText": "You purchased 1 unit of Salt at a bargain trailside price of 15 Mudras! Cargo loaded successfully."
+      },
+      {
+        "id": "exchange_news",
+        "label": "[B] Share market intelligence & regional prices",
+        "hint": "Free • Awards +5 Knowledge & +1 Reputation",
+        "effects": { "travelDelay": 0, "gold": 0, "knowledge": 5, "cargoLoss": 0, "reputation": 1 },
+        "resultText": "You shared news of inland textile prices and learned of coastal harbor demands (+5 Knowledge, +1 Reputation)!"
+      },
+      {
+        "id": "decline_trader",
+        "label": "[C] Politely decline and continue onward",
+        "hint": "No effect",
+        "effects": { "travelDelay": 0, "gold": 0, "knowledge": 0, "cargoLoss": 0, "reputation": 0 },
+        "resultText": "You exchanged friendly road blessings with the trader and continued your journey."
+      }
+    ]
+  },
+  {
+    "id": "travelling_scholar",
+    "title": "TRAVELLING SCHOLAR CHALLENGE",
+    "type": "scholar_quiz",
+    "icon": "📜",
+    "description": "A scholarly traveler from an ancient learning academy walks alongside your caravan: 'Greetings, merchant! Let us see if you know the geography of our great trade routes.'",
+    "historicalNote": "Scholars, teachers, and wanderers from ancient centers of learning like Takshashila and Varanasi traveled alongside merchant caravans for mutual protection along imperial trade tracks.",
+    "question": "Which major ancient highway connected northern Gangetic centers through Ujjain to southern ports?",
+    "choices": [
+      {
+        "id": "ans_dakshinapatha",
+        "label": "[A] The Dakshinapatha (Great Southern Highway)",
+        "hint": "Historical answer",
+        "isCorrect": true,
+        "effects": { "travelDelay": 0, "gold": 0, "knowledge": 10, "cargoLoss": 0, "reputation": 2 },
+        "resultText": "✓ CORRECT! 'Splendidly answered, merchant! The Dakshinapatha was indeed the lifeblood of inland commerce.' (+10 Knowledge, +2 Reputation)"
+      },
+      {
+        "id": "ans_silk_road",
+        "label": "[B] The Trans-Atlantic Route",
+        "hint": "Historical answer",
+        "isCorrect": false,
+        "effects": { "travelDelay": 0, "gold": 0, "knowledge": 0, "cargoLoss": 0, "reputation": 0 },
+        "resultText": "✗ NOT QUITE. 'The correct answer is the Dakshinapatha, which linked Pataliputra and Ujjain to the southern kingdoms.'"
+      },
+      {
+        "id": "ans_grand_sea",
+        "label": "[C] The Himalayan Glacier Path",
+        "hint": "Historical answer",
+        "isCorrect": false,
+        "effects": { "travelDelay": 0, "gold": 0, "knowledge": 0, "cargoLoss": 0, "reputation": 0 },
+        "resultText": "✗ NOT QUITE. 'The correct answer is the Dakshinapatha, the great southern highway of central India.'"
+      }
+    ]
+  }
+]

@@ -1,0 +1,107 @@
+[
+  {
+    "id": "insight_pataliputra_1",
+    "location": "pataliputra",
+    "title": "Gangetic River Arteries",
+    "text": "Pataliputra's position at the confluence of the Ganga and Son rivers allowed cargo barges to transport grain, timber, and pottery across northern India.",
+    "knowledgeReward": 5
+  },
+  {
+    "id": "insight_pataliputra_2",
+    "location": "pataliputra",
+    "title": "Mauryan Highway Administration",
+    "text": "Mauryan royal administrations stationed highway officers (Rajjukas and Antapalas) along trunk routes to protect merchant caravans and maintain rest stops.",
+    "knowledgeReward": 5
+  },
+  {
+    "id": "insight_pataliputra_3",
+    "location": "pataliputra",
+    "title": "State Granaries & Food Security",
+    "text": "State storehouses (Koshthagara) described in the Arthashastra stored agricultural reserves in Gangetic cities to stabilize staple grain prices.",
+    "knowledgeReward": 5
+  },
+  {
+    "id": "insight_ujjain_1",
+    "location": "ujjain",
+    "title": "The Dakshinapatha Highway",
+    "text": "Ujjayini served as the central inland crossroads connecting northern Gangetic valleys with the great southern highway (Dakshinapatha) and western ports.",
+    "knowledgeReward": 5
+  },
+  {
+    "id": "insight_ujjain_2",
+    "location": "ujjain",
+    "title": "Textile Weaving Shrenis",
+    "text": "Avanti weaving guilds (Shrenis) produced fine dyed cotton fabrics and muslin, which were traded in regional bazaars and transported along trade roads.",
+    "knowledgeReward": 5
+  },
+  {
+    "id": "insight_ujjain_3",
+    "location": "ujjain",
+    "title": "Astronomical Meridian & Commerce",
+    "text": "Regarded as a prime meridian city of ancient Indian geography, Ujjayini attracted mathematicians, astronomers, and caravan merchants from all quarters.",
+    "knowledgeReward": 5
+  },
+  {
+    "id": "insight_bharuch_1",
+    "location": "bharuch",
+    "title": "Bharukaccha Western Seaport",
+    "text": "Known as Barygaza by ancient Greek and western navigators, Bharukaccha was the primary western port where seafarers traded for Indian beads and fine cloth.",
+    "knowledgeReward": 5
+  },
+  {
+    "id": "insight_bharuch_2",
+    "location": "bharuch",
+    "title": "Narmada Estuary Pilots",
+    "text": "Skilled local harbor pilots were employed at Bharukaccha to guide merchant vessels safely through the swift tidal currents of the Narmada estuary.",
+    "knowledgeReward": 5
+  },
+  {
+    "id": "insight_bharuch_3",
+    "location": "bharuch",
+    "title": "Agate & Bead Workshops",
+    "text": "Inland deposits of agate and carnelian were transported along the Narmada valley to regional workshops for cutting, polishing, and maritime export.",
+    "knowledgeReward": 5
+  },
+  {
+    "id": "insight_madurai_1",
+    "location": "madurai",
+    "title": "Sangam Guild Assemblies",
+    "text": "Madurai was the cultural heart of the early Pandyan kingdom, where merchant guilds and royal assemblies sponsored early Tamil literature and bustling bazaars.",
+    "knowledgeReward": 5
+  },
+  {
+    "id": "insight_madurai_2",
+    "location": "madurai",
+    "title": "Southern Cotton & Weaving",
+    "text": "Southern weavers produced fine raw cotton cloth celebrated for its lightness and strength across ancient northern Indian and maritime markets.",
+    "knowledgeReward": 5
+  },
+  {
+    "id": "insight_madurai_3",
+    "location": "madurai",
+    "title": "Gulf of Mannar Pearls",
+    "text": "Pandyan divers in the shallow waters of the Gulf of Mannar harvested natural sea pearls, which were transported northward along the Dakshinapatha.",
+    "knowledgeReward": 5
+  },
+  {
+    "id": "insight_muziris_1",
+    "location": "muziris",
+    "title": "Black Gold of Malabar",
+    "text": "Black pepper harvested in the nearby hills was prized as 'Black Gold' due to its immense culinary and preservative value across ancient trade networks.",
+    "knowledgeReward": 5
+  },
+  {
+    "id": "insight_muziris_2",
+    "location": "muziris",
+    "title": "Monsoon Navigation Winds",
+    "text": "Ancient Indian Ocean mariners utilized the seasonal southwest and northeast monsoon wind cycles to sail safely to and from the Malabar Coast.",
+    "knowledgeReward": 5
+  },
+  {
+    "id": "insight_muziris_3",
+    "location": "muziris",
+    "title": "Palakkad Gap Mountain Pass",
+    "text": "The low mountain pass of the Palakkad Gap through the Western Ghats provided a vital overland link between Malabar ports and the inland southern plains.",
+    "knowledgeReward": 5
+  }
+]

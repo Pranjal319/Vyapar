@@ -1,0 +1,402 @@
+[
+  {
+    "id": "ujjain_001",
+    "location": "ujjain",
+    "state": "ujjain",
+    "topic": "Inland Crossroads & Trade Routes",
+    "question": "Why was Ujjayini a vital center of ancient Indian trade c. 250 BCE?",
+    "options": [
+      "It was the grand inland crossroads connecting the northern Uttarapatha with the Dakshinapatha",
+      "It was an isolated coastal fishing port on the open ocean",
+      "It was situated on an uninhabited high Himalayan glacier",
+      "It was a deep desert salt flat without water sources"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Ujjayini was the paramount crossroads of central India, linking the Gangetic plains, western seaports, and southern kingdoms along the Dakshinapatha.",
+    "knowledgeReward": 10
+  },
+  {
+    "id": "ujjain_002",
+    "location": "ujjain",
+    "state": "ujjain",
+    "topic": "Regional Textiles & Dyeing",
+    "question": "What artisanal craft was ancient Ujjayini celebrated for in regional trade?",
+    "options": [
+      "Fine cotton cloth dyed with natural indigo and madder",
+      "Whale oil processing and blubber refinement",
+      "Cast iron steam locomotive parts",
+      "Paper currency printing"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Ujjayini's skilled weavers and dyers produced high-value cotton fabrics dyed with vibrant local mineral and plant pigments.",
+    "knowledgeReward": 10
+  },
+  {
+    "id": "ujjain_003",
+    "location": "ujjain",
+    "state": "ujjain",
+    "topic": "Caravan Trade & Sarthavahas",
+    "question": "How did southern spices and coastal goods reach northern cities through Ujjayini?",
+    "options": [
+      "Via organized merchant caravans (Sarthas) led by skilled caravan leaders (Sarthavahas)",
+      "Exclusively through underground subterranean canal barges",
+      "Spices were never traded across inland India in ancient times",
+      "Through mechanical steam transports"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Merchant caravans consisting of hundreds of ox carts and pack animals travelled the ancient highways under the protection of guild leaders (Sarthavahas).",
+    "knowledgeReward": 10
+  },
+  {
+    "id": "ujjain_004",
+    "location": "ujjain",
+    "state": "ujjain",
+    "topic": "The Dakshinapatha Highway",
+    "question": "Which ancient trade artery connected Ujjayini to the Deccan and southern realms?",
+    "options": [
+      "The Dakshinapatha (Great Southern Route)",
+      "The Trans-Atlantic Shipping Lane",
+      "The Nordic Amber Highway",
+      "The Mediterranean Coastal Railroad"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The Dakshinapatha was the historic southern trade highway of ancient India linking Pataliputra and Ujjayini with the Deccan plateau and Tamil kingdoms.",
+    "knowledgeReward": 10
+  },
+  {
+    "id": "ujjain_005",
+    "location": "ujjain",
+    "state": "ujjain",
+    "topic": "Mauryan Administration & Learning",
+    "question": "What role did Ujjayini play within the Mauryan Empire around 250 BCE?",
+    "options": [
+      "It was a major provincial capital and former viceregal seat of Ashoka",
+      "It was a foreign colony governed by distant Roman senators",
+      "It was an abandoned ruined fortress with no population",
+      "It was solely a military garrison with no trade or markets"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Ujjayini was the capital of the Avanti province of the Mauryan Empire, where Ashoka served as viceroy before ascending the throne in Pataliputra.",
+    "knowledgeReward": 10
+  },
+  {
+    "id": "bharuch_001",
+    "location": "bharuch",
+    "state": "bharuch",
+    "topic": "Western Maritime Gateway",
+    "question": "Why was Bharukaccha (historically Barygaza) vital to ancient seaborne merchants?",
+    "options": [
+      "It was the premier western maritime haven situated on the Narmada River estuary",
+      "It was an inland mountain pass in the high Himalayas",
+      "It was a freshwater lake with no access to the ocean",
+      "It only traded timber with dense northern forests"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Bharukaccha, located near the mouth of the Narmada River on the Gulf of Khambhat, was the primary western Indian port connecting inland routes with the Arabian Sea.",
+    "knowledgeReward": 10
+  },
+  {
+    "id": "bharuch_002",
+    "location": "bharuch",
+    "state": "bharuch",
+    "topic": "International Maritime Routes",
+    "question": "Which maritime waterways connected Bharukaccha to western seafarers in antiquity?",
+    "options": [
+      "The Arabian Sea, Persian Gulf, and Red Sea trade lanes",
+      "The Baltic Sea and North Sea channels",
+      "The Arctic Ocean and Hudson Bay",
+      "The North American Great Lakes"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Ancient merchant vessels from the Arabian Sea, Persian Gulf, and Red Sea navigated seasonal ocean winds to anchor at Bharukaccha.",
+    "knowledgeReward": 10
+  },
+  {
+    "id": "bharuch_003",
+    "location": "bharuch",
+    "state": "bharuch",
+    "topic": "Monsoon Navigation",
+    "question": "What natural seasonal wind cycle enabled ancient sailing craft to cross the western sea to Indian ports?",
+    "options": [
+      "Predictable seasonal monsoon wind patterns",
+      "Submarine hydrothermal currents",
+      "Continuous circular hurricanes",
+      "Year-round static polar winds"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Ancient navigators utilized the southwest summer monsoon to sail toward India and the northeast winter monsoon to return westward across the ocean.",
+    "knowledgeReward": 10
+  },
+  {
+    "id": "bharuch_004",
+    "location": "bharuch",
+    "state": "bharuch",
+    "topic": "Coastal Sea Salt",
+    "question": "Why was solar sea salt harvested along coastal estuaries a lucrative trade good?",
+    "options": [
+      "It was an indispensable preservative for food and vital for inland dietary needs",
+      "It was carved into structural masonry for royal palaces",
+      "It was melted to forge bronze swords and shields",
+      "It was woven into royal crowns and garments"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Coastal salt harvested from tidal pans was transported by inland caravans to supply grain-farming populations across central and northern India.",
+    "knowledgeReward": 10
+  },
+  {
+    "id": "bharuch_005",
+    "location": "bharuch",
+    "state": "bharuch",
+    "topic": "Lapidary Bead Craft",
+    "question": "What semi-precious stone goods were crafted in western India and exported from Bharukaccha?",
+    "options": [
+      "Polished carnelian, agate, and chalcedony beads",
+      "Rough unworked granite ballast blocks only",
+      "Volcanic obsidian mirrors from the Americas",
+      "Melted synthetic amber plastics"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Narmada valley agate and carnelian deposits were cut, bored, and polished in regional bead workshops for domestic and overseas trade.",
+    "knowledgeReward": 10
+  },
+  {
+    "id": "pataliputra_001",
+    "location": "pataliputra",
+    "state": "pataliputra",
+    "topic": "Mauryan Imperial Capital",
+    "question": "Which ancient empire governed from the monumental city of Pataliputra around 250 BCE?",
+    "options": [
+      "The Mauryan Empire under Emperor Ashoka",
+      "The British East India Company",
+      "The Mughal Empire under Akbar",
+      "The Roman Empire under Augustus"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Pataliputra was the grand capital of the Mauryan Empire, which unified most of the Indian subcontinent under Chandragupta, Bindusara, and Ashoka.",
+    "knowledgeReward": 10
+  },
+  {
+    "id": "pataliputra_002",
+    "location": "pataliputra",
+    "state": "pataliputra",
+    "topic": "Gangetic River Highway",
+    "question": "Which major river system served as the vital transport highway for Pataliputra's trade?",
+    "options": [
+      "The sacred Ganga and Son river confluence",
+      "The Nile River delta",
+      "The Danube River gorge",
+      "The Amazon River basin"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The Ganga and its tributaries provided riverine arteries for large wooden barges carrying grain, timber, and pottery across northern India.",
+    "knowledgeReward": 10
+  },
+  {
+    "id": "pataliputra_003",
+    "location": "pataliputra",
+    "state": "pataliputra",
+    "topic": "Agricultural Grain Surplus",
+    "question": "Why was the agricultural heartland of Magadha essential to continental commerce?",
+    "options": [
+      "Rich river silt yielded immense surplus grain that sustained urban crafts and trade",
+      "The region produced only desert thorns and cactus",
+      "The land was flooded year-round and barred all human farming",
+      "Magadha was exclusively a barren stone quarry"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Fertile Gangetic alluvium produced abundant rice and agricultural harvests, feeding imperial cities and funding long-distance caravan trade.",
+    "knowledgeReward": 10
+  },
+  {
+    "id": "pataliputra_004",
+    "location": "pataliputra",
+    "state": "pataliputra",
+    "topic": "Northern Black Polished Ware",
+    "question": "What distinctive lustrous ceramic ware was produced in Gangetic workshops and traded across ancient India?",
+    "options": [
+      "Northern Black Polished Ware (NBPW)",
+      "Delft blue glazed earthenware",
+      "English bone china",
+      "Modern porcelain tile"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Northern Black Polished Ware was a deluxe, mirror-like pottery characteristic of the Mauryan and early historical era.",
+    "knowledgeReward": 10
+  },
+  {
+    "id": "pataliputra_005",
+    "location": "pataliputra",
+    "state": "pataliputra",
+    "topic": "The Arthashastra & Economic Policy",
+    "question": "What ancient Sanskrit treatise composed in Pataliputra outlined statecraft, market regulation, and trade tolls?",
+    "options": [
+      "The Arthashastra attributed to Kautilya (Chanakya)",
+      "The Odyssey of Homer",
+      "The Magna Carta of England",
+      "The Code of Justinian"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The Arthashastra detailed trade regulations, standardized weights and measures, market superintendent roles (Panyadhyaksha), and state storehouse management.",
+    "knowledgeReward": 10
+  },
+  {
+    "id": "madurai_001",
+    "location": "madurai",
+    "state": "madurai",
+    "topic": "Early Pandyan Dynasty",
+    "question": "Which historic southern dynasty ruled from the city of Madurai along the Vaigai River?",
+    "options": [
+      "The early Pandyan Kingdom",
+      "The Frankish Carolingian Dynasty",
+      "The Egyptian Ptolemaic Dynasty",
+      "The Persian Achaemenid Satrapy"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Madurai was the ancient capital of the Pandya kings, celebrated for their patronage of early Tamil Sangam poets and rich maritime commerce.",
+    "knowledgeReward": 10
+  },
+  {
+    "id": "madurai_002",
+    "location": "madurai",
+    "state": "madurai",
+    "topic": "Southern Cotton Weaving",
+    "question": "What high-quality textile was ancient Madurai celebrated for producing?",
+    "options": [
+      "Fine woven cotton cloth praised for its cloud-like softness",
+      "Coarse mountain yak fur coats",
+      "Synthetic nylon sailcloth",
+      "Heavy European wool blankets"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Madurai's weavers produced fine cotton fabrics celebrated in early Tamil poetry and sought after across northern and coastal markets.",
+    "knowledgeReward": 10
+  },
+  {
+    "id": "madurai_003",
+    "location": "madurai",
+    "state": "madurai",
+    "topic": "Gulf of Mannar Pearls",
+    "question": "From where did Pandyan merchants obtain the natural sea pearls traded in Madurai's bazaars?",
+    "options": [
+      "The pearl fisheries of the Gulf of Mannar",
+      "High Himalayan mountain summits",
+      "Inland dry desert salt deposits",
+      "Freshwater agricultural ponds"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The shallow waters of the Gulf of Mannar produced lustrous natural sea pearls renowned throughout the ancient world.",
+    "knowledgeReward": 10
+  },
+  {
+    "id": "madurai_004",
+    "location": "madurai",
+    "state": "madurai",
+    "topic": "Southern Hill Aromatics",
+    "question": "What aromatic commodities were brought down from the southern hills to Madurai?",
+    "options": [
+      "Green cardamom, wild cinnamon bark, and hill aromatics",
+      "European horseradish and wasabi",
+      "American bell peppers and cocoa",
+      "Refined cane sugar syrups only"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The southern Western Ghats (Cardamom Hills) yielded fragrant wild spices and resins traded through Madurai's commercial guilds.",
+    "knowledgeReward": 10
+  },
+  {
+    "id": "madurai_005",
+    "location": "madurai",
+    "state": "madurai",
+    "topic": "Sangam Bazaars",
+    "question": "How did early Sangam texts describe the bustling daytime and evening markets of Madurai?",
+    "options": [
+      "As Naalangadi (day bazaar) and Allangadi (night bazaar)",
+      "As Roman Forum and Colosseum",
+      "As feudal village fairs held once a year",
+      "As silent underground vaults"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Ancient Tamil literature describes Madurai's perpetual commerce through vibrant day markets (Naalangadi) and lit evening markets (Allangadi).",
+    "knowledgeReward": 10
+  },
+  {
+    "id": "muziris_001",
+    "location": "muziris",
+    "state": "muziris",
+    "topic": "Malabar Coast Maritime Hub",
+    "question": "Along which southwestern coastal region was the ancient spice port of Muciri located?",
+    "options": [
+      "The tropical Malabar Coast along the Periyar River estuary",
+      "The arid Rann of Kutch",
+      "The Gangetic Sundarbans delta",
+      "The Coromandel coastline of the Bay of Bengal"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Muciri was situated along the sheltered lagoon and mouth of the Periyar River on the Malabar Coast, acting as a global spice nexus.",
+    "knowledgeReward": 10
+  },
+  {
+    "id": "muziris_002",
+    "location": "muziris",
+    "state": "muziris",
+    "topic": "Malabar Black Pepper Trade",
+    "question": "Why was Malabar Black Pepper known in ancient Mediterranean trade as 'Black Gold'?",
+    "options": [
+      "It commanded extraordinary value as a luxury culinary spice and preservative",
+      "It was literally mined from volcanic gold veins",
+      "It was used as fuel for iron steam turbines",
+      "It was fashioned into metallic currency coins"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Black pepper was so highly coveted for its flavor and preservation qualities that overseas merchants paid in precious bullion for it.",
+    "knowledgeReward": 10
+  },
+  {
+    "id": "muziris_003",
+    "location": "muziris",
+    "state": "muziris",
+    "topic": "Indian Ocean Maritime Trade",
+    "question": "What valuable items did western seafaring merchants bring to Muciri to trade for black pepper?",
+    "options": [
+      "Silver coinage, Mediterranean wine amphorae, and glassware",
+      "Heavy winter furs from Scandinavia",
+      "Crude coal and iron ore lumps",
+      "Processed tea bags and porcelain"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Archaeological finds in Kerala have uncovered ancient silver coins, Roman amphora fragments, and glassware traded for Malabar spices.",
+    "knowledgeReward": 10
+  },
+  {
+    "id": "muziris_004",
+    "location": "muziris",
+    "state": "muziris",
+    "topic": "Estuary Harbor & Anchorage",
+    "question": "What natural geographic feature provided safe anchorage for ocean-going sailing vessels at Muciri?",
+    "options": [
+      "Sheltered backwater lagoons and the calm river estuary",
+      "Exposed sheer rocky sea cliffs with no shelter",
+      "Modern reinforced concrete tidal locks",
+      "Frozen winter fjord channels"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The sheltered waters of the Periyar estuary protected merchant craft from rough open ocean swells while cargo was transferred.",
+    "knowledgeReward": 10
+  },
+  {
+    "id": "muziris_005",
+    "location": "muziris",
+    "state": "muziris",
+    "topic": "Inland Mountain Connections",
+    "question": "Which natural mountain pass in the Western Ghats linked the spice port of Muciri to inland southern plains?",
+    "options": [
+      "The Palakkad Gap pass",
+      "The Khyber Pass in the Hindu Kush",
+      "The Bolan Pass in Baluchistan",
+      "The Rohtang Pass in the Himalayas"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The Palakkad Gap is a major low-altitude break in the Western Ghats that allowed merchant caravans to travel between Malabar and the interior Tamil country.",
+    "knowledgeReward": 10
+  }
+]

@@ -34,3 +34,33 @@ export default function App() {
     } else {
       handleNewJourney();
     }
+  };
+
+  const handleModalComplete = (enteredNick, enteredCharId) => {
+    setShowNicknameModal(false);
+    globalSaveManager.startNewGame(enteredNick, enteredCharId);
+    handleNavigate('game');
+  };
+
+  return (
+    <ErrorBoundary>
+      <div className="app-container">
+        <div className="main-content">
+          {currentPage === 'home' ? (
+            <Home 
+              onStartJourney={handleStartJourney}
+              onContinueJourney={handleContinueJourney}
+              onNewJourney={handleNewJourney}
+            />
+          ) : (
+            <Game onReturnHome={() => handleNavigate('home')} />
+          )}
+        </div>
+      </div>
+      <NicknameModal
+        isOpen={showNicknameModal}
+        onComplete={handleModalComplete}
+      />
+    </ErrorBoundary>
+  );
+}

@@ -68,3 +68,82 @@ export default function NicknameModal({ isOpen, onComplete }) {
               setNickname(event.target.value);
               setError('');
             }}
+            maxLength={16}
+            autoFocus
+            placeholder="Your nickname (e.g. Pranjal)"
+          />
+          {error && <p className="nickname-error" role="alert">{error}</p>}
+          <button type="submit" className="nickname-start-button">
+            CONTINUE →
+          </button>
+        </form>
+      ) : (
+        /* STEP 2: CHOOSE YOUR MERCHANT */
+        <div className="character-select-modal-card">
+          <span className="nickname-mark">VYAPAR • c. 250 BCE</span>
+          <h1 className="char-select-title">CHOOSE YOUR MERCHANT</h1>
+          <p className="char-select-subtitle">Who will travel these roads, trade in bustling bazaars, and lead the caravan?</p>
+
+          <div className="characters-selection-grid">
+            {characters.map(char => {
+              const isSelected = char.id === selectedCharId;
+              return (
+                <div
+                  key={char.id}
+                  className={`character-card ${isSelected ? 'character-card-selected' : ''}`}
+                  onClick={() => {
+                    setSelectedCharId(char.id);
+                    setError('');
+                  }}
+                  role="button"
+                  tabIndex={0}
+                  onKeyDown={(e) => {
+                    if (e.key === 'Enter' || e.key === ' ') {
+                      e.preventDefault();
+                      setSelectedCharId(char.id);
+                      setError('');
+                    }
+                  }}
+                >
+                  <div className="character-portrait-wrapper">
+                    <img
+                      src={char.portrait}
+                      alt={char.name}
+                      className="character-portrait-img"
+                      loading="eager"
+                    />
+                    {isSelected && (
+                      <span className="character-selected-badge">✓ SELECTED</span>
+                    )}
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+
+          {error && <p className="nickname-error" role="alert" style={{ marginBottom: '1rem' }}>{error}</p>}
+
+          <div className="char-select-actions-bar">
+            <button
+              type="button"
+              className="btn-char-back"
+              onClick={() => {
+                setError('');
+                setStep(1);
+              }}
+            >
+              ← Back to Name
+            </button>
+            <button
+              type="button"
+              className="btn-char-confirm-start"
+              onClick={handleFinalSubmit}
+            >
+              BEGIN JOURNEY →
+            </button>
+          </div>
+        </div>
+      )}
+    </div>
+  );
+}

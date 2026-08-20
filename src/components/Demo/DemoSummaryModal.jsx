@@ -33,3 +33,41 @@ export default function DemoSummaryModal({ isOpen, onReplay, onExit }) {
               {netProfitDisplay} Mudras
             </strong>
           </div>
+
+          <div className="demo-stat-row">
+            <span className="d-label">📚 Historical Knowledge</span>
+            <strong className="d-val text-teal">+10 Knowledge</strong>
+          </div>
+
+          <div className="demo-stat-row">
+            <span className="d-label">🐪 Journey Events</span>
+            <strong className="d-val">1 Historical Encounter</strong>
+          </div>
+        </div>
+
+        <div className="demo-impact-box">
+          <p className="impact-text">
+            VYAPAR demonstrates how historical trade networks, regional demand, and economic geography can be experienced interactively through gameplay.
+          </p>
+        </div>
+
+        <div className="demo-action-buttons">
+          <button
+            type="button"
+            className="btn-demo-replay"
+            onClick={onReplay}
+          >
+            🔄 REPLAY DEMO
+          </button>
+          <button
+            type="button"
+            className="btn-demo-exit"
+            onClick={onExit}
+          >
+            🏠 EXIT TO MAIN MENU
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+}

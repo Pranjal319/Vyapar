@@ -106,3 +106,79 @@ export class DialogueManager {
     }
     const line = this.currentSequence[this.currentIndex];
     return {
+      ...line,
+      text: line.text.replace(/\{\{playerName\}\}/g, getPlayerNickname() || 'traveler')
+    };
+  }
+
+  /**
+   * Advance to the next line or close if finished
+   */
+  nextLine() {
+    if (!this.isOpen) return;
+
+    if (this.currentIndex < this.currentSequence.length - 1) {
+      this.currentIndex += 1;
+      this.notify();
+    } else {
+      this.close();
+    }
+  }
+
+  /**
+   * Close dialogue box and reset state
+   */
+  close() {
+    if (!this.isOpen) return;
+    const completedSeqId = this.currentSequenceId;
+    this.isOpen = false;
+    this.currentIndex = 0;
+    this.currentSequence = [];
+    this.currentSequenceId = null;
+    if (typeof window !== 'undefined') {
+      import('../../game/audio/AudioManager').then(({ globalAudioManager }) => {
+        globalAudioManager.setDialogueActive(false);
+      }).catch(() => {});
+    }
+    this.notify();
+
+    // Trigger location question transition if an Elder/Narrator sequence completed
+    const isGuideSequence = (
+      completedSeqId === 'elder_merchant' ||
+      completedSeqId === 'narrator_ujjain' ||
+      completedSeqId === 'narrator_bharuch' ||
+      completedSeqId === 'narrator_pataliputra' ||
+      completedSeqId === 'narrator_madurai' ||
+      completedSeqId === 'narrator_muziris'
+    );
+
+    if (isGuideSequence) {
+      let locId = 'ujjain';
+      if (completedSeqId.startsWith('narrator_')) {
+        locId = completedSeqId.replace('narrator_', '');
+      }
+      globalQuestionManager.startQuestionForLocation(locId);
+    } else if (completedSeqId) {
+      // If closing a merchant/trader dialogue, automatically open the trading market
+      const isMerchantDialogue = (
+        completedSeqId.startsWith('npc_') ||
+        completedSeqId.includes('textile') ||
+        completedSeqId.includes('spice') ||
+        completedSeqId.includes('grain') ||
+        completedSeqId.includes('artisan') ||
+        completedSeqId.includes('salt') ||
+        completedSeqId.includes('marcus') ||
+        completedSeqId.includes('pearl') ||
+        completedSeqId.includes('silk')
+      );
+      if (isMerchantDialogue && typeof window !== 'undefined') {
+        import('../../game/trading/TradeManager').then(({ globalTradeManager }) => {
+          globalTradeManager.openMarket();
+        }).catch(() => {});
+      }
+    }
+  }
+}
+
+// Global shared instance
+export const globalDialogueManager = new DialogueManager();

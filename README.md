@@ -76,16 +76,6 @@ Discover Historical Insights & Record Lore in Knowledge Journal
    npm run build
    npm run preview
    ```
-
----
-
-## 📄 Presentation Documentation
-
-* [SIH Presentation Pitch Script](docs/SIH_DEMO_SCRIPT.md) — 5-7 minute guided presentation script for SIH judges.
-* [SIH Presentation Readiness Checklist](docs/SIH_DEMO_CHECKLIST.md) — Verification matrix for live demonstrations.
-
----
-
 ## 📜 License & Credits
 
 Built with React, Vite, and HTML5 Canvas for Smart India Hackathon (SIH). Educational content derived from ancient and medieval Indian commercial history.
